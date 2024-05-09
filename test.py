@@ -8,6 +8,7 @@ def guessing_game():
     attempts = 0
 
     while True:
+        #remote repo changes by other developer
         guess = int(input("Enter your guess: "))
 
         attempts += 1
